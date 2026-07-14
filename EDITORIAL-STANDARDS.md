@@ -17,9 +17,8 @@ Use this paragraph, or a shortened version of it, whenever a standard descriptio
 - 40 to 50 free professional concerts a year
 - Approximately 8 acres (the pavilion site)
 - 291 acres (Willow Waterhole Greenway)
-- Roughly 350,000 residents within five miles
 - The Levitt network: first venue Westport, CT (1974); 100+ communities; 1,000+ free concerts annually; 1M+ attendees annually
-- MusicFest: most recent event Spring 2026 (there was no 2025 event). Next: MusicFest 2027 and future community concerts.
+- MusicFest: began at Willow Waterhole in 2013; most recent event Spring 2026 (there was no 2025 event). Next: future Levitt concerts and MusicFest 2027.
 - One of only two Levitt venues in development in the United States
 
 Do not publish: dollar amounts of any kind (grants, operating support, campaign figures, lease values), lease terms, lawn capacity figures, opening dates, or construction start dates.
@@ -35,7 +34,7 @@ Avoid: "Property has been acquired." / "Construction is beginning." / "Final mas
 - **Levitt Pavilion Houston** on first reference; **Levitt Houston** acceptable after that.
 - **The former Shell Gasmer site** or **the former Shell site** for the property. Never publish a working park name.
 - **Willow Waterhole Greenway** in full on first reference.
-- **Southwest Houston Redevelopment Authority** in full. Do not use TIRZ, TIRZ 20, or other acronyms in public materials.
+- **Southwest Redevelopment Authority**. Do not use TIRZ, TIRZ 20, or other acronyms in public materials.
 - Avoid FLPH, MOU, LCCA, and all internal acronyms in public copy.
 - The star atop the derrick is always "a proposed crowning element of the restored derrick, subject to site design." Never state it as built or committed.
 - Do not use "front porch" language or "no front row, no back row." Describe the lawn through shared community experience instead.
@@ -43,6 +42,12 @@ Avoid: "Property has been acquired." / "Construction is beginning." / "Final mas
 ## Partner naming conventions
 
 Named partners are limited to organizations with formal project roles: Levitt Foundation, Southwest Houston Redevelopment Authority, City of Houston, Brays Oaks Management District, Willow Waterhole Greenspace Conservancy. Describe partner roles qualitatively; do not publish the contents of agreements.
+
+## Standard calls to action
+
+- **Support Levitt** for fundraising.
+- **Join Our Email List** for updates.
+- The site refers to the location as the former Shell Gasmer site at 5521 Gasmer Drive, beside Willow Waterhole Greenway. Never state or imply the property transaction has closed.
 
 ## Taglines
 

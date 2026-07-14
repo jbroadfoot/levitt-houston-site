@@ -30,8 +30,6 @@ A pure HTML/CSS static site. No framework, no build step, no dependencies beyond
     ├── logo-icon-dark.png       Derrick icon, dark backgrounds (homepage hero)
     ├── texas.png                Texas mark, light backgrounds
     ├── texas-dark.png           Texas mark, dark backgrounds (footer)
-    ├── location-illustration.svg  Brand illustration: derrick, pavilion, greenway (Vision)
-    ├── houston-map.svg          Stylized location map (Vision, Contact)
     └── favicon.png              Browser tab icon
 ```
 
@@ -72,11 +70,11 @@ Site copy follows the Editorial Standards Guide (`EDITORIAL-STANDARDS.md` in thi
 
 ## Outstanding
 
-- Active donation platform URL (Donate buttons currently point to the legacy site; TODO comments mark both spots in support.html)
-- Current Board roster: director names and officer roles (About page; Treasurer shown as Open)
-- Number of years/editions of MusicFest for the About proof point
-- Confirm the Skyrocket headline set was at the Spring 2026 event
+- Active donation platform URL (Give Online button points to the legacy site; TODO comment marks it in support.html)
+- Mailing address for Contact page and footer (marked TODO; footer shows the future pavilion location, 5521 Gasmer Drive)
+- Exact headlines, dates, and article URLs for the three In the Media cards (Updates page; links currently go to publication homepages)
+- Official per-venue site URLs on the Network page (currently levitt.org with TODOs)
+- Designer-produced branded location illustration for the Contact page (placeholder in place)
 - Embedded email sign-up form (mailto links are weak capture; consider Mailchimp or similar)
-- Selected media coverage entries for the Updates page (summarize paywalled articles, link to source)
 - Signature photography collection: aerials, the derrick, Willow Waterhole, MusicFest crowds, families, authentic Levitt venue photos
 - SVG logo files from the designer

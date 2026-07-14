@@ -251,3 +251,50 @@ footer a:hover { color: var(--orange); }
 .narrow { max-width: 720px; }
 .narrow-center { max-width: 720px; margin-left: auto; margin-right: auto; }
 .divider-wave { display: block; width: 100%; height: 42px; }
+
+/* ---------- Campaign band (signature moment: "A new kind of energy") ---------- */
+.campaign-band {
+  background: var(--charcoal-deep); color: var(--cream);
+  padding: 100px 0 92px; position: relative; overflow: hidden; text-align: center;
+}
+.campaign-band .line {
+  font-family: var(--display); font-weight: 900; text-transform: uppercase;
+  letter-spacing: -0.01em; line-height: 1.03;
+  font-size: clamp(2.3rem, 5.6vw, 4.2rem);
+}
+.campaign-band .line em { font-style: normal; color: var(--orange); }
+.campaign-band .sub {
+  max-width: 660px; margin: 1.5rem auto 0;
+  color: rgba(248,244,243,0.85); font-size: 1.08rem;
+}
+.campaign-star {
+  display: block; color: var(--orange); font-size: 1.5rem;
+  letter-spacing: 0.5em; margin-bottom: 16px;
+}
+.campaign-band .wave-divider { position: absolute; left: 0; right: 0; bottom: 14px; opacity: 0.7; }
+
+/* Star bullet for Light the Star context */
+.star-note { font-family: var(--display); font-size: 0.8rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-soft); }
+.star-note::before { content: "\2605"; color: var(--orange); margin-right: 8px; }
+
+/* ---------- Round 3: blue discipline + mobile fixes ---------- */
+/* Way-finding is place: current page marker goes blue; hover stays orange (action) */
+.nav-links a[aria-current="page"] { border-bottom-color: var(--blue); }
+
+/* Hidden brand touch */
+::selection { background: var(--blue); color: #fff; }
+
+/* Timeline: completed milestones are blue facts; what's ahead is the orange ask */
+.timeline li::before { background: var(--blue); }
+.timeline li.future::before { background: var(--orange); border: 3px solid var(--cream); }
+
+/* Mobile hero: a faded mark is worse than none */
+@media (max-width: 900px) { .hero-derrick { display: none; } }
+
+/* Campaign band derrick mark (the standalone icon's home) */
+.campaign-mark { height: 96px; width: auto; margin: 0 auto 20px; display: block; }
+
+/* Branded figure strips (illustration, map) */
+.figure-strip { padding: 56px 0; }
+.figure-strip img, .figure-strip svg { width: 100%; height: auto; display: block; }
+.map-figure { background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 14px; }

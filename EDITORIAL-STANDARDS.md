@@ -6,7 +6,7 @@ Version 1.0, July 2026. A short reference for anyone writing for the website, so
 
 Use this paragraph, or a shortened version of it, whenever a standard description is needed:
 
-> Levitt Pavilion Houston is a free outdoor music venue rising on the former Shell Gasmer site beside Willow Waterhole Greenway in Southwest Houston. In partnership with the Levitt Foundation and public partners, Levitt Houston will present 40 to 50 free professional concerts each year on an open lawn, building community through music. Levitt Pavilion Houston is one of only two Levitt venues in development in the United States.
+> Levitt Pavilion Houston is a free outdoor music venue rising on the former Shell Gasmer site beside Willow Waterhole Greenway in Southwest Houston. In partnership with the Levitt Foundation and public partners, Levitt Houston will present 40 free professional concerts each year on an open lawn, building community through music. Levitt Pavilion Houston is one of only two Levitt venues in development in the United States.
 
 ## Approved organization description
 
@@ -14,7 +14,7 @@ Use this paragraph, or a shortened version of it, whenever a standard descriptio
 
 ## Approved measurements, dates, and facts
 
-- 40 to 50 free professional concerts a year
+- 40 free professional concerts a year
 - Approximately 8 acres (the pavilion site)
 - 291 acres (Willow Waterhole Greenway)
 - The Levitt network: first venue Westport, CT (1974); 100+ communities; 1,000+ free concerts annually; 1M+ attendees annually

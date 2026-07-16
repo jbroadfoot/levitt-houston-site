@@ -86,7 +86,7 @@ Site copy follows the Editorial Standards Guide (`EDITORIAL-STANDARDS.md` in thi
 
 1. **No financial figures of any kind.** No grant amounts, operating support figures, campaign totals or targets, or lease values. The campaign is in a quiet phase; confidence comes from vision, not numbers.
 2. **No agreement mechanics.** No MOU, lease terms, governance structures, maintenance agreements, or committee language.
-3. **Safe facts only:** 40 to 50 free concerts annually; approximately 8 acres; the 291-acre greenway; ~350,000 residents within five miles; network stats (1974, 100+, 1,000+, 1M+). No capacity figures or dates until confirmed.
+3. **Safe facts only:** 40 free concerts annually; approximately 8 acres; the 291-acre greenway; ~350,000 residents within five miles; network stats (1974, 100+, 1,000+, 1M+). No capacity figures or dates until confirmed.
 4. **Status language:** planning continues; the project continues to advance; future milestones are anticipated, not committed.
 5. **The star is proposed.** Always "a proposed crowning element of the restored derrick, subject to site design."
 6. **No park name, no acronyms** (TIRZ, MOU, FLPH, LCCA) in public copy. "Southwest Houston Redevelopment Authority" in full.

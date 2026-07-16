@@ -14,7 +14,7 @@ A pure HTML/CSS static site. No framework, no build step, no dependencies beyond
 ```
 /
 ├── index.html        Homepage: hero, four pillars, campaign band, network proof, MusicFest, CTA
-├── vision.html       The site, the plan, the derrick and Light the Star, front door + pipeline
+├── vision.html       The Vision: the place, the experience, MusicFest proof, the derrick (compact), impact, support
 ├── network.html      The national Levitt network and Foundation partnership
 ├── musicfest.html    Our annual festival, proof of concept
 ├── partners.html     MOU partners and community coalition
@@ -25,9 +25,9 @@ A pure HTML/CSS static site. No framework, no build step, no dependencies beyond
 ├── styles.css        Shared design system for every page
 └── images/
     ├── logo + brand marks        logo-wordmark(.png/-dark), logo-icon(.png/-dark), texas(.png/-dark), favicon
-    ├── site-*.jpg                The Gasmer site and derrick (sunrise, sunset, blue sky, lake reflection)
+    ├── site-*.jpg                The Gasmer site derrick (foliage foreground); site-sunrise retained for other pages
     ├── ww-*.jpg                  Willow Waterhole Greenway (credited: Riese, Edmondson, Bloodworth)
-    ├── mf-*.jpg                  MusicFest (two images only: Perme from-stage, gazebo sunset)
+    ├── mf-*.jpg                  MusicFest (Perme from-stage, gazebo sunset, aerial 2018)
     ├── levitt-*.jpg              Levitt network venue cards (from Foundation composites)
     └── rendering-houston-wide.jpg  Early concept rendering (always captioned as concept)
 ```
@@ -78,7 +78,7 @@ The site is under active editorial direction. Any change touching layout, imager
 
 ## Image doctrine
 
-Few images, all top quality. National Levitt venue photography and Willow Waterhole scenics carry the vision; the derrick photos carry the place; MusicFest gets exactly two images site-wide (proof of community, not competing with the national experience). No over-saturated/HDR-treated photography. Every image is visually verified before it ships; anything not clean gets a labeled placeholder instead. Unused files are deleted from /images, never parked.
+Few images, all top quality. National Levitt venue photography and Willow Waterhole scenics carry the vision; the derrick photo carries the place, in a compact, non-dominant role; MusicFest photography (three images: stage view, gazebo sunset, aerial) is proof of community, not competing with the national experience. No over-saturated/HDR-treated photography. Every image is visually verified before it ships; anything not clean gets a labeled placeholder instead. Unused files are deleted from /images, never parked.
 
 ## Content rules (important)
 

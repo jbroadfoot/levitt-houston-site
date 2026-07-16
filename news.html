@@ -81,27 +81,15 @@
   <div class="wrap">
     <span class="eyebrow">In the media</span>
     <h2>Selected coverage</h2>
-    <div class="grid-3 mt-3">
-      <!-- TODO: confirm each article's exact headline, publication date, and URL before launch -->
+    <div class="mt-3" style="max-width:420px;">
       <div class="card">
-        <p class="media-note">Houston Business Journal</p>
-        <h3>Levitt Pavilion Houston moves forward</h3>
-        <p>Coverage of the partnership advancing the future free-concert venue beside Willow Waterhole. Subscriber access may be required.</p>
-        <p><a href="https://www.bizjournals.com/houston">Read at Houston Business Journal</a></p>
-      </div>
-      <div class="card">
-        <p class="media-note">The Real Deal</p>
-        <h3>Former Shell site planned for pavilion</h3>
-        <p>Real estate coverage of the former Shell Gasmer property and its future as a community venue.</p>
-        <p><a href="https://therealdeal.com">Read at The Real Deal</a></p>
-      </div>
-      <div class="card">
-        <p class="media-note">Hoodline</p>
-        <h3>Free live music venue planned for Southwest Houston</h3>
-        <p>Neighborhood coverage of the future Levitt venue beside Willow Waterhole Greenway.</p>
-        <p><a href="https://hoodline.com">Read at Hoodline</a></p>
+        <p class="media-note">Community Impact</p>
+        <h3>Fundraising efforts for Levitt Pavilion at Willow Waterhole are underway</h3>
+        <p>Coverage of the site search, the former Shell property, and the early fundraising campaign for the future pavilion.</p>
+        <p><a href="https://communityimpact.com/houston/bellaire-meyerland-west-university/development/2020/03/23/with-new-site-identified-fundraising-efforts-for-levitt-pavilion-at-willow-waterhole-are-underway/">Read at Community Impact</a></p>
       </div>
     </div>
+    <!-- As more coverage becomes available, switch this container back to class="grid-3 mt-3" and add cards. -->
   </div>
 </section>
 
@@ -113,9 +101,14 @@
     <span class="eyebrow">Stay close</span>
     <h2>Follow the progress</h2>
     <p class="lede mt-1">Concert announcements and project updates land first on our email list.</p>
-    <div class="btn-row" style="justify-content:center;">
-      <a class="btn btn-orange" href="mailto:info@levitthouston.org?subject=Add%20me%20to%20the%20email%20list">Join Our Email List</a>
-      <a class="btn btn-ghost-light" href="https://www.facebook.com/LevittHouston">Facebook @LevittHouston</a>
+    <div class="mt-2" style="text-align:center;">
+      <!-- TODO: replace form action with a real endpoint. Fastest path: create a free Formspree.io form (formspree.io/f/NEW), swap the action URL below. Better long-term if the org already uses Mailchimp/Constant Contact for donor email: replace this whole form with that platform's embed code so signups land in the same list as other supporters. -->
+      <form class="email-capture" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <label for="email-up" class="sr-only">Email address</label>
+        <input type="email" id="email-up" name="email" placeholder="Enter your email" required>
+        <button type="submit" class="btn btn-orange">Join Our List</button>
+      </form>
+      <p class="mt-1"><a class="btn btn-ghost-light" href="https://www.facebook.com/LevittHouston">Facebook @LevittHouston</a></p>
     </div>
   </div>
 </section>
@@ -145,8 +138,7 @@
         <li><a href="https://www.facebook.com/LevittHouston">Facebook @LevittHouston</a></li>
         <li><a href="contact.html">Contact</a></li>
         <li><a href="support.html">Donate</a></li>
-        <!-- TODO: confirm mailing address before launch -->
-        <li>Future home: 5521 Gasmer Drive, Houston, TX</li>
+        <li>5300 N. Braeswood Blvd, Suite 4-202, Houston, TX 77096</li>
       </ul>
     </div>
   </div>

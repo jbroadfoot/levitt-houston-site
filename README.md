@@ -24,13 +24,12 @@ A pure HTML/CSS static site. No framework, no build step, no dependencies beyond
 ├── contact.html      Lightweight contact page (linked from the footer, not main nav)
 ├── styles.css        Shared design system for every page
 └── images/
-    ├── logo-wordmark.png        Primary mark, light backgrounds (nav)
-    ├── logo-wordmark-dark.png   Primary mark, dark backgrounds
-    ├── logo-icon.png            Derrick icon, light backgrounds
-    ├── logo-icon-dark.png       Derrick icon, dark backgrounds (homepage hero)
-    ├── texas.png                Texas mark, light backgrounds
-    ├── texas-dark.png           Texas mark, dark backgrounds (footer)
-    └── favicon.png              Browser tab icon
+    ├── logo + brand marks        logo-wordmark(.png/-dark), logo-icon(.png/-dark), texas(.png/-dark), favicon
+    ├── site-*.jpg                The Gasmer site and derrick (sunrise, sunset, blue sky, lake reflection)
+    ├── ww-*.jpg                  Willow Waterhole Greenway (credited: Riese, Edmondson, Bloodworth)
+    ├── mf-*.jpg                  MusicFest (two images only: Perme from-stage, gazebo sunset)
+    ├── levitt-*.jpg              Levitt network venue cards (from Foundation composites)
+    └── rendering-houston-wide.jpg  Early concept rendering (always captioned as concept)
 ```
 
 PNG logos were extracted from the designer's PDF. When SVG files arrive from the designer, replace the PNGs (keeping the same filenames with .svg extensions and updating the `<img src>` paths) for crisper scaling.
@@ -56,6 +55,27 @@ Every page is standalone HTML. To edit copy, open the file, find the text, chang
 
 GitHub Pages serves the `main` branch automatically. Any commit to `main` is live within a minute or two. There is nothing to build or configure.
 
+## Support page structure
+
+The Support page (support.html) runs two distinct, clearly labeled asks, matching standard nonprofit practice (Annual Fund vs. Capital Campaign, as seen at comparable orgs including Levitt San Jose and Valley Forge Park Alliance):
+
+- **The Campaign** — the capital vision ask ("A New Kind of Energy for Houston"). No dollar figures, consistent with quiet-phase discipline.
+- **Annual Fund** — ("Keep the Music Playing") supports MusicFest and yearly programming. Deliberately avoids naming a season, month, or event format, since neither is settled yet.
+
+Both buttons currently point to the same Square link. See Outstanding for the tracking limitation.
+
+## Verified facts (confirmed against levitthouston.org, current as of this build)
+
+- Board of Directors and Advisory Board Members: matches the live site exactly. No year in the heading, matching the original editorial instruction.
+- Mailing address: Friends of Levitt Pavilion Houston, Inc., 5300 N. Braeswood Blvd, Suite 4-202, Houston, TX 77096.
+- Site location: 5521 Gasmer Drive, Houston, TX 77035 (not yet open to the public).
+- All seven established Levitt venue "Official site" links point to each venue's real homepage, verified individually, not guessed.
+- Media coverage: only one article is currently cited (Community Impact, 2020) because it is the only one I could verify has a real, working URL. Do not add placeholder-sounding media cards for outlets that haven't been confirmed to have covered the project; an empty or single-card section is more credible than invented-looking coverage.
+
+## Image doctrine
+
+Few images, all top quality. National Levitt venue photography and Willow Waterhole scenics carry the vision; the derrick photos carry the place; MusicFest gets exactly two images site-wide (proof of community, not competing with the national experience). No over-saturated/HDR-treated photography. Every image is visually verified before it ships; anything not clean gets a labeled placeholder instead. Unused files are deleted from /images, never parked.
+
 ## Content rules (important)
 
 Site copy follows the Editorial Standards Guide (`EDITORIAL-STANDARDS.md` in this repo) and the internal Brand & Message Platform. The rules that most often come up when editing:
@@ -70,11 +90,9 @@ Site copy follows the Editorial Standards Guide (`EDITORIAL-STANDARDS.md` in thi
 
 ## Outstanding
 
-- Active donation platform URL (Give Online button points to the legacy site; TODO comment marks it in support.html)
-- Mailing address for Contact page and footer (marked TODO; footer shows the future pavilion location, 5521 Gasmer Drive)
-- Exact headlines, dates, and article URLs for the three In the Media cards (Updates page; links currently go to publication homepages)
-- Official per-venue site URLs on the Network page (currently levitt.org with TODOs)
+- **Donation link** — both "Support Levitt" (Campaign) and "Give to the Annual Fund" buttons on the Support page point to the same Square checkout link (square.link/u/yzNNS96a). This works today but does not distinguish Campaign gifts from Annual Fund gifts in Square's reporting. Parked for a future backlog: set up separate Square items/links (or a memo field) if tracking the two funds separately becomes important.
+- **Email capture endpoint** — real inline forms are now on Contact, Updates, and MusicFest (styled, accessible, ready to submit). Each has a placeholder Formspree action URL marked TODO. Fastest fix: create a free form at formspree.io and swap in the real endpoint on all three pages. Better long-term: if the org has (or gets) a Mailchimp/Constant Contact account, swap these forms for that platform's embed code so signups land in the same list as other supporters.
 - Designer-produced branded location illustration for the Contact page (placeholder in place)
-- Embedded email sign-up form (mailto links are weak capture; consider Mailchimp or similar)
-- Signature photography collection: aerials, the derrick, Willow Waterhole, MusicFest crowds, families, authentic Levitt venue photos
-- SVG logo files from the designer
+- Signature photography collection: additional MusicFest and Willow Waterhole photography as it becomes available (current set is intentionally small and high-quality; see Image doctrine above)
+- SVG logo files from the designer, if/when produced (current build uses the extracted PNGs and that's a fine permanent state, not a blocker)
+- Additional verified media coverage for the Updates page (currently one confirmed article; add more only when a real, checkable URL exists — see note below)

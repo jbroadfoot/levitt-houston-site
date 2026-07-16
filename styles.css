@@ -343,3 +343,42 @@ footer a:hover { color: var(--orange); }
 .email-capture.on-light input[type="email"] { background: #fff; border: 1px solid var(--line); color: var(--ink); }
 .email-capture.on-light input[type="email"]::placeholder { color: var(--ink-soft); }
 @media (max-width: 480px) { .email-capture { flex-direction: column; } }
+
+/* ---------- Refined board list (item 21, 22): elegant roster, no card treatment ---------- */
+.officer-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; list-style: none; padding: 0; margin: 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.officer-row li { padding: 22px 12px; text-align: center; border-right: 1px solid var(--line); }
+.officer-row li:last-child { border-right: none; }
+.officer-row .name { display: block; font-family: var(--display); font-weight: 800; font-size: 1.1rem; letter-spacing: -0.005em; }
+.officer-row .role { display: block; font-family: var(--body); font-size: 0.78rem; color: var(--ink-soft); text-transform: uppercase; letter-spacing: 0.14em; margin-top: 6px; }
+@media (max-width: 720px) { .officer-row { grid-template-columns: repeat(2, 1fr); } .officer-row li:nth-child(2) { border-right: none; } .officer-row li:nth-child(-n+2) { border-bottom: 1px solid var(--line); } }
+
+.member-roster { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0 40px; list-style: none; padding: 0; margin: 0; }
+.member-roster li { font-family: var(--display); font-weight: 700; font-size: 1.05rem; padding: 18px 8px; text-align: center; border-bottom: 1px solid var(--line); }
+@media (max-width: 720px) { .member-roster { grid-template-columns: repeat(2, 1fr); gap: 0 24px; } }
+@media (max-width: 480px) { .member-roster { grid-template-columns: 1fr; } }
+
+.advisory-row { display: flex; flex-wrap: wrap; gap: 12px 40px; list-style: none; padding: 0; margin: 0; justify-content: center; }
+.advisory-row li { font-family: var(--display); font-weight: 700; font-size: 1.05rem; }
+
+/* ---------- Media cards: publication name prominent, link visible (items 24, 26) ---------- */
+.media-card { background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 28px; display: flex; flex-direction: column; gap: 14px; }
+.media-card .pub { font-family: var(--display); font-weight: 800; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--orange); }
+.media-card .meta { font-family: var(--body); font-size: 0.85rem; color: var(--ink-soft); }
+.media-card h3 { font-size: 1.2rem; line-height: 1.25; margin: 0; }
+.media-card .read-link { display: inline-block; font-family: var(--display); font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.82rem; padding-top: 4px; border-bottom: 2px solid var(--charcoal); color: var(--charcoal); align-self: flex-start; }
+.media-card .read-link:hover { border-bottom-color: var(--orange); color: var(--orange); }
+
+/* ---------- MusicFest poster strip (item 15) ---------- */
+.poster-strip { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 12px; margin-top: 1.5rem; }
+.poster-strip .poster { aspect-ratio: 3/4; background: #fff; border: 1px solid var(--line); border-radius: 6px; display: flex; align-items: center; justify-content: center; padding: 10px; text-align: center; font-family: var(--display); font-weight: 700; font-size: 0.85rem; color: var(--ink-soft); overflow: hidden; }
+.poster-strip .poster img { width: 100%; height: 100%; object-fit: cover; border-radius: 4px; }
+
+/* ---------- Home page mark alignment (item 8) ---------- */
+@media (min-width: 1200px) {
+  .hero-derrick { right: max(2rem, calc((100vw - 1180px) / 2 + 2rem)); }
+}
+
+/* ---------- Vision derrick section as two-column layout (item 6) ---------- */
+.derrick-split { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center; }
+.derrick-split .derrick-portrait { max-height: 640px; object-fit: cover; object-position: center 30%; border-radius: var(--radius); width: 100%; }
+@media (max-width: 900px) { .derrick-split { grid-template-columns: 1fr; } .derrick-split .derrick-portrait { max-height: 480px; } }

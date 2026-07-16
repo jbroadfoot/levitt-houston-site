@@ -64,6 +64,10 @@ The Support page (support.html) runs two distinct, clearly labeled asks, matchin
 
 Both buttons currently point to the same Square link. See Outstanding for the tracking limitation.
 
+## Roles & responsibilities
+
+The site is under active editorial direction. Any change touching layout, imagery, or copy voice runs through a single review lens: national Levitt imagery carries the vision, the derrick carries the place, MusicFest carries proof of community. Images are visually verified before shipping; anything that fails verification becomes a labeled placeholder, never ships as-is.
+
 ## Verified facts (confirmed against levitthouston.org, current as of this build)
 
 - Board of Directors and Advisory Board Members: matches the live site exactly. No year in the heading, matching the original editorial instruction.

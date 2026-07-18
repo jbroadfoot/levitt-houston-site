@@ -18,7 +18,7 @@ Use this paragraph, or a shortened version of it, whenever a standard descriptio
 - Approximately 8 acres (the pavilion site)
 - 291 acres (Willow Waterhole Greenway)
 - The Levitt network: first venue Westport, CT (1974); 100+ communities; 1,000+ free concerts annually; 1M+ attendees annually
-- MusicFest: began at Willow Waterhole in 2013; most recent event Spring 2026 (there was no 2025 event). Next: future Levitt concerts and MusicFest 2027.
+- MusicFest: began at Willow Waterhole in 2012; most recent event Spring 2026 (there was no 2025 event). Next: future Levitt concerts and MusicFest 2027.
 - One of only two Levitt venues in development in the United States
 
 Do not publish: dollar amounts of any kind (grants, operating support, campaign figures, lease values), lease terms, lawn capacity figures, opening dates, or construction start dates.

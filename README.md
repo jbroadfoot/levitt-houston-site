@@ -57,12 +57,14 @@ GitHub Pages serves the `main` branch automatically. Any commit to `main` is liv
 
 ## Support page structure
 
-The Support page (support.html) runs two distinct, clearly labeled asks, matching standard nonprofit practice (Annual Fund vs. Capital Campaign, as seen at comparable orgs including Levitt San Jose and Valley Forge Park Alliance):
+The Support page (support.html) runs four distinct, clearly labeled asks:
 
 - **The Campaign** — the capital vision ask ("A New Kind of Energy for Houston"). No dollar figures, consistent with quiet-phase discipline.
+- **Founding Support** — ("Be Part of the Beginning") gives early supporters a founding-donor identity without committing to naming-opportunity specifics.
 - **Annual Fund** — ("Keep the Music Playing") supports MusicFest and yearly programming. Deliberately avoids naming a season, month, or event format, since neither is settled yet.
+- **Major-gift conversation** — ("Prefer to talk it through?") a direct contact CTA for larger gifts, separate from the Founding Support ask.
 
-Both buttons currently point to the same Square link. See Outstanding for the tracking limitation.
+The Campaign and Annual Fund buttons currently point to the same Square link. See Outstanding for the tracking limitation.
 
 ## Roles & responsibilities
 
@@ -74,7 +76,7 @@ The site is under active editorial direction. Any change touching layout, imager
 - Mailing address: Friends of Levitt Pavilion Houston, Inc., 5300 N. Braeswood Blvd, Suite 4-202, Houston, TX 77096.
 - Site location: 5521 Gasmer Drive, Houston, TX 77035 (not yet open to the public).
 - All seven established Levitt venue "Official site" links point to each venue's real homepage, verified individually, not guessed.
-- Media coverage: only one article is currently cited (Community Impact, 2020) because it is the only one I could verify has a real, working URL. Do not add placeholder-sounding media cards for outlets that haven't been confirmed to have covered the project; an empty or single-card section is more credible than invented-looking coverage.
+- Media coverage: the Timeline page cites one verified article (Houston Business Journal, July 10, 2026) with a confirmed working URL. The earlier Community Impact (2020) citation has been removed. Do not add placeholder-sounding media cards for outlets that haven't been confirmed to have covered the project; an empty or single-card section is more credible than invented-looking coverage.
 
 ## Image doctrine
 
@@ -89,7 +91,7 @@ Site copy follows the Editorial Standards Guide (`EDITORIAL-STANDARDS.md` in thi
 3. **Safe facts only:** 40 free concerts annually; approximately 8 acres; the 291-acre greenway; ~350,000 residents within five miles; network stats (1974, 100+, 1,000+, 1M+). No capacity figures or dates until confirmed.
 4. **Status language:** planning continues; the project continues to advance; future milestones are anticipated, not committed.
 5. **The star is proposed.** Always "a proposed crowning element of the restored derrick, subject to site design."
-6. **No park name, no acronyms** (TIRZ, MOU, FLPH, LCCA) in public copy. "Southwest Houston Redevelopment Authority" in full.
+6. **No park name.** **Southwest Houston Redevelopment Authority (TIRZ 20)** on first reference; TIRZ 20 is acceptable afterward. Avoid FLPH, MOU, and LCCA in public copy.
 7. **Taglines:** "A new kind of energy" is the campaign voice. "Free live music under the stars" is the experiential line. "Building community through music" is for formal, Foundation-facing use.
 
 ## Outstanding

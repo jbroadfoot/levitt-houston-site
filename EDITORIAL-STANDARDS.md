@@ -6,7 +6,7 @@ Version 1.0, July 2026. A short reference for anyone writing for the website, so
 
 Use this paragraph, or a shortened version of it, whenever a standard description is needed:
 
-> Levitt Pavilion Houston is a free outdoor music venue rising on the former Shell Gasmer site beside Willow Waterhole Greenway in Southwest Houston. In partnership with the Levitt Foundation and public partners, Levitt Houston will present 40 free professional concerts each year on an open lawn, building community through music. Levitt Pavilion Houston is one of only two Levitt venues in development in the United States.
+> Levitt Pavilion Houston is a free outdoor music venue rising on the former Shell Gasmer site beside Willow Waterhole Greenway in Southwest Houston. In partnership with the Levitt Foundation and public partners, Levitt Houston will present 40 free professional concerts each year on an open lawn, building community through music.
 
 ## Approved organization description
 
@@ -19,7 +19,6 @@ Use this paragraph, or a shortened version of it, whenever a standard descriptio
 - 291 acres (Willow Waterhole Greenway)
 - The Levitt network: first venue Westport, CT (1974); 100+ communities; 1,000+ free concerts annually; 1M+ attendees annually
 - MusicFest: began at Willow Waterhole in 2012; most recent event Spring 2026 (there was no 2025 event). Next: future Levitt concerts and MusicFest 2027.
-- One of only two Levitt venues in development in the United States
 
 Do not publish: dollar amounts of any kind (grants, operating support, campaign figures, lease values), lease terms, lawn capacity figures, opening dates, or construction start dates.
 
@@ -34,7 +33,7 @@ Avoid: "Property has been acquired." / "Construction is beginning." / "Final mas
 - **Levitt Pavilion Houston** on first reference; **Levitt Houston** acceptable after that.
 - **The former Shell Gasmer site** or **the former Shell site** for the property. Never publish a working park name.
 - **Willow Waterhole Greenway** in full on first reference.
-- **Southwest Redevelopment Authority**. Do not use TIRZ, TIRZ 20, or other acronyms in public materials.
+- **Southwest Houston Redevelopment Authority (TIRZ 20)** on first reference; TIRZ 20 is acceptable afterward.
 - Avoid FLPH, MOU, LCCA, and all internal acronyms in public copy.
 - The star atop the derrick is always "a proposed crowning element of the restored derrick, subject to site design." Never state it as built or committed.
 - Do not use "front porch" language or "no front row, no back row." Describe the lawn through shared community experience instead.

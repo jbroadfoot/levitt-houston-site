@@ -347,8 +347,6 @@ footer a:hover { color: var(--orange); }
 .social-icon-link { display: inline-flex; align-items: center; gap: 10px; color: var(--cream); text-decoration: none; font-family: var(--body); font-size: 0.95rem; }
 .social-icon-link svg { width: 26px; height: 26px; flex-shrink: 0; }
 .social-icon-link:hover { opacity: 0.8; }
-.timeline-hero-graphic .tl-node { fill: var(--charcoal); stroke: var(--blue); stroke-width: 3; }
-.timeline-hero-graphic .tl-star { fill: var(--orange); }
 
 /* ---------- Refined board list (item 21, 22): elegant roster, no card treatment ---------- */
 .officer-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; list-style: none; padding: 0; margin: 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }

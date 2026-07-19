@@ -36,12 +36,38 @@
 </header>
 
 <section class="page-hero">
-  <div class="wrap">
-    <span class="eyebrow">Timeline</span>
-    <h1>Milestones<br>&amp; Updates</h1>
-    <p class="lede">Follow the major steps shaping Levitt Pavilion Houston, from its beginnings at Willow Waterhole to the future pavilion planned for the former Shell Gasmer site.</p>
+  <div class="wrap grid-2" style="align-items:center;">
+    <div>
+      <span class="eyebrow">Timeline</span>
+      <h1>Milestones<br>&amp; Updates</h1>
+      <p class="lede">Follow the major steps shaping Levitt Pavilion Houston, from its beginnings at Willow Waterhole to the future pavilion planned for the former Shell Gasmer site.</p>
+    </div>
+    <div class="timeline-hero-graphic" aria-hidden="true">
+      <svg viewBox="0 0 560 360" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;max-width:460px;display:block;margin:0 auto;">
+        <path d="M20 320 Q 120 300 180 270" fill="none" stroke="rgba(248,244,243,0.35)" stroke-width="2" stroke-linecap="round" stroke-dasharray="2 10"/>
+        <path d="M180 270 Q 260 235 260 210 Q 260 180 340 140 Q 400 110 420 90 Q 440 68 470 55" fill="none" stroke="rgba(248,244,243,0.55)" stroke-width="2" stroke-linecap="round"/>
+        <circle class="tl-node" cx="180" cy="270" r="7"/>
+        <circle class="tl-node" cx="262" cy="205" r="7"/>
+        <circle class="tl-node" cx="340" cy="140" r="7"/>
+        <circle class="tl-node" cx="420" cy="90" r="7"/>
+        <g filter="url(#starGlow)">
+          <path class="tl-star" d="M486 30 L494.5 47.5 L513.7 50.3 L499.8 63.8 L503.1 82.9 L486 73.9 L468.9 82.9 L472.2 63.8 L458.3 50.3 L477.5 47.5 Z"/>
+        </g>
+        <defs>
+          <filter id="starGlow" x="-60%" y="-60%" width="220%" height="220%">
+            <feGaussianBlur stdDeviation="5" result="blur"/>
+            <feMerge>
+              <feMergeNode in="blur"/>
+              <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+          </filter>
+        </defs>
+      </svg>
+    </div>
   </div>
 </section>
+
+<style>@media (max-width: 720px) { .timeline-hero-graphic { display: none; } }</style>
 
 
 <section>

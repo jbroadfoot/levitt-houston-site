@@ -20,7 +20,7 @@ A pure HTML/CSS static site. No framework, no build step, no dependencies beyond
 ├── partners.html     MOU partners and community coalition
 ├── support.html      Capital campaign, Light the Star giving opportunity, ways to give
 ├── about.html        Who we are, board, Willow Waterhole roots
-├── news.html         Project Updates: timeline of milestones (nav label is "Updates")
+├── timeline.html         Project Updates: timeline of milestones (nav label is "Updates")
 ├── contact.html      Lightweight contact page (linked from the footer, not main nav)
 ├── styles.css        Shared design system for every page
 └── images/

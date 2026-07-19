@@ -217,8 +217,8 @@ section { padding: 88px 0; }
   width: 14px; height: 14px; border-radius: 50%; background: var(--orange);
   border: 3px solid var(--cream);
 }
-.timeline .t-year { font-family: var(--display); font-weight: 900; font-size: 1.2rem; letter-spacing: 0.04em; display: block; margin-bottom: 4px; }
-.timeline .t-body { color: var(--ink-soft); font-size: 1.08rem; line-height: 1.55; }
+.timeline .t-year { font-family: var(--display); font-weight: 900; font-size: 1.35rem; letter-spacing: 0.03em; display: block; margin-bottom: 6px; }
+.timeline .t-body { color: var(--ink-soft); font-size: 1.15rem; line-height: 1.6; }
 .timeline li.future::before { background: var(--cream); border: 3px solid var(--orange); }
 
 /* ---------- Partner strip ---------- */
@@ -247,7 +247,7 @@ footer a:hover { color: var(--orange); }
 .page-hero p.lede { max-width: 680px; margin-top: 1.2rem; color: rgba(248,244,243,0.85); }
 
 /* ---------- Utility ---------- */
-.mt-1 { margin-top: 1rem; } .mt-2 { margin-top: 2rem; } .mt-3 { margin-top: 3rem; }
+.mt-1 { margin-top: 1rem; } .mt-2 { margin-top: 2rem; } .mt-3 { margin-top: 3rem; } .mt-4 { margin-top: 4.5rem; }
 .center { text-align: center; }
 .narrow { max-width: 720px; }
 .narrow-center { max-width: 720px; margin-left: auto; margin-right: auto; }
@@ -335,15 +335,18 @@ footer a:hover { color: var(--orange); }
 
 .email-capture { display: flex; gap: 10px; max-width: 460px; margin: 0 auto; }
 .email-capture input[type="email"] {
-  flex: 1; padding: 13px 16px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.25);
-  background: rgba(255,255,255,0.08); color: var(--cream); font-family: var(--body); font-size: 0.95rem;
+  flex: 1; padding: 13px 16px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.45);
+  background: rgba(255,255,255,0.16); color: var(--cream); font-family: var(--body); font-size: 0.95rem;
 }
-.email-capture input[type="email"]::placeholder { color: rgba(248,244,243,0.55); }
+.email-capture input[type="email"]::placeholder { color: rgba(248,244,243,0.75); }
 .email-capture input[type="email"]:focus { outline: 2px solid var(--orange); outline-offset: 2px; background: rgba(255,255,255,0.14); }
 .email-capture button { white-space: nowrap; border: none; cursor: pointer; }
 .email-capture.on-light input[type="email"] { background: #fff; border: 1px solid var(--line); color: var(--ink); }
 .email-capture.on-light input[type="email"]::placeholder { color: var(--ink-soft); }
 @media (max-width: 480px) { .email-capture { flex-direction: column; } }
+.social-icon-link { display: inline-flex; align-items: center; gap: 10px; color: var(--cream); text-decoration: none; font-family: var(--body); font-size: 0.95rem; }
+.social-icon-link svg { width: 26px; height: 26px; flex-shrink: 0; }
+.social-icon-link:hover { opacity: 0.8; }
 
 /* ---------- Refined board list (item 21, 22): elegant roster, no card treatment ---------- */
 .officer-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; list-style: none; padding: 0; margin: 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
@@ -369,7 +372,7 @@ footer a:hover { color: var(--orange); }
 @media (max-width: 720px) { .board-officers { grid-template-columns: repeat(2, 1fr); } }
 
 .board-members { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; list-style: none; padding: 0; margin: 0; }
-.board-members li { background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 18px 14px; text-align: center; font-family: var(--display); font-weight: 700; font-size: 1rem; }
+.board-members li { background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 22px 14px; text-align: center; font-family: var(--display); font-weight: 800; font-size: 1.15rem; letter-spacing: -0.005em; }
 @media (max-width: 720px) { .board-members { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 480px) { .board-members { grid-template-columns: 1fr; } }
 
@@ -382,7 +385,7 @@ footer a:hover { color: var(--orange); }
 .media-card .pub { font-family: var(--display); font-weight: 800; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--orange); }
 .media-card .meta { font-family: var(--body); font-size: 0.85rem; color: var(--ink-soft); }
 .media-card h3 { font-size: 1.2rem; line-height: 1.25; margin: 0; }
-.media-card .read-link { display: inline-block; font-family: var(--display); font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.82rem; padding-top: 4px; border-bottom: 2px solid var(--charcoal); color: var(--charcoal); align-self: flex-start; }
+.media-card .read-link { display: inline-block; text-decoration: none; font-family: var(--display); font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.82rem; padding-top: 4px; border-bottom: 2px solid var(--charcoal); color: var(--charcoal); align-self: flex-start; }
 .media-card .read-link:hover { border-bottom-color: var(--orange); color: var(--orange); }
 
 /* ---------- MusicFest poster strip (item 15) ---------- */

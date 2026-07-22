@@ -380,7 +380,7 @@ footer a:hover { color: var(--orange); }
 
 .board-advisory-wrap { text-align: center; }
 .board-advisory { display: flex; flex-wrap: wrap; gap: 8px 36px; list-style: none; padding: 0; margin: 12px 0 0; justify-content: center; }
-.board-advisory li { font-family: var(--body); font-weight: 500; font-size: 0.92rem; color: var(--ink-soft); }
+.board-advisory li { font-family: var(--body); font-weight: 500; font-size: 1.15rem; color: var(--ink-soft); }
 
 /* ---------- Media cards: publication name prominent, link visible (items 24, 26) ---------- */
 .media-card { background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 28px; display: flex; flex-direction: column; gap: 14px; }

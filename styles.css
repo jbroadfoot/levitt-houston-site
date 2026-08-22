@@ -147,7 +147,7 @@ section { padding: 88px 0; }
 .hero p.lede { max-width: 620px; margin-top: 1.4rem; color: rgba(248,244,243,0.88); }
 .hero-derrick {
   position: absolute; right: 6%; top: 50%; transform: translateY(-50%);
-  height: min(70%, 380px); width: auto; pointer-events: none;
+  height: min(61%, 335px); width: auto; pointer-events: none;
 }
 @media (max-width: 900px) { .hero-derrick { opacity: 0.14; right: -10%; } }
 @media (prefers-reduced-motion: reduce) {
@@ -405,7 +405,7 @@ footer a:hover { color: var(--orange); }
 
 /* ---------- Home page mark alignment (item 8) ---------- */
 @media (min-width: 1200px) {
-  .hero-derrick { right: max(2rem, calc((100vw - 1180px) / 2 + 2rem)); }
+  .hero-derrick { right: max(2rem, calc((100vw - 1180px) / 2 + 6rem)); }
 }
 
 /* ---------- Vision derrick section as two-column layout (item 6) ---------- */
